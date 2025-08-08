@@ -63,10 +63,10 @@ const Projects: React.FC = () => {
       // githubUrl: 'https://github.com/yourusername/virtue-group',
       featured: true,
       screenshots: [
-        '/proj_screenshots/VirtueGroupWebsite-1.png',
-        '/proj_screenshots/VirtueGroupWebsite-2.png',
-        '/proj_screenshots/VirtueGroupWebsite-3.png',
-        '/proj_screenshots/VirtueGroupWebsite-4.png'
+        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-1.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-2.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-3.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-4.png`
       ],
       detailedDescription: 'A comprehensive business website for Virtue Group, designed with a modern and professional aesthetic. The website features a clean layout, responsive design, and intuitive navigation to showcase the company\'s services and values effectively.',
       challenges: [
@@ -96,8 +96,8 @@ const Projects: React.FC = () => {
       // githubUrl: 'https://github.com/yourusername/taskapp',
       featured: true,
       screenshots: [
-        '/api/placeholder/800/600',
-        '/api/placeholder/800/600'
+        `${process.env.PUBLIC_URL}/api/placeholder/800/600`,
+        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
       ],
       detailedDescription: 'A modern task management application built with React and TypeScript, featuring real-time collaboration powered by Firebase. Users can create projects, assign tasks, set deadlines, and track progress with an intuitive drag-and-drop interface.',
       challenges: [
@@ -123,7 +123,7 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/yourusername/weather',
       featured: false,
       screenshots: [
-        '/api/placeholder/800/600'
+        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
       ],
       detailedDescription: 'An interactive weather dashboard that provides comprehensive weather information with beautiful visualizations. Built with vanilla JavaScript and Chart.js for optimal performance.',
       challenges: [
@@ -148,8 +148,8 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/yourusername/analytics',
       featured: false,
       screenshots: [
-        '/api/placeholder/800/600',
-        '/api/placeholder/800/600'
+        `${process.env.PUBLIC_URL}/api/placeholder/800/600`,
+        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
       ],
       detailedDescription: 'A comprehensive social media analytics platform that processes large datasets to provide insights into social media performance. Built with Python Django backend and D3.js for interactive visualizations.',
       challenges: [

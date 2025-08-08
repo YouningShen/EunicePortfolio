@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
             <div className="hero__avatar">
               <div className="avatar-placeholder">
                 <img 
-                  src="/profile-picture.jpg" 
+                  src={`${process.env.PUBLIC_URL}/profile-picture.jpg`} 
                   alt="Eunice Shen" 
                   className="profile-image"
                 />
