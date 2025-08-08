@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/YouningShen' },
+    { name: 'GitHub', icon: '😺', url: 'https://github.com/YouningShen' },
     { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/eunice-shen' },
     // { name: 'Twitter', icon: '🐦', url: 'https://twitter.com/yourusername' },
     { name: 'Email', icon: '📧', url: 'mailto:euniceshen0609@gmail.com' }

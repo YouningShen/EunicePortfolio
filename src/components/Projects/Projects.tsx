@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
 
     {
       id: 2,
-      title: 'AutoML Data Analytics',
+      title: 'AutoML Data Analytics Tool',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       technologies: ['React', 'Firebase', 'TypeScript', 'Material-UI'],
       image: '📊',

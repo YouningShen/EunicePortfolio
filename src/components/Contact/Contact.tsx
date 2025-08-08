@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      icon: '🐙',
+      icon: '😺',
       url: 'https://github.com/YouningShen',
       description: 'Check out my code'
     },
