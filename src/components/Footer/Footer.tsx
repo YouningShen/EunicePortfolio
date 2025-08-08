@@ -76,10 +76,11 @@ const Footer: React.FC = () => {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="social-icon"
+                      className="social-link"
                       title={social.name}
                     >
-                      {social.icon}
+                      <span className="social-icon">{social.icon}</span>
+                      <span className="social-name">{social.name}</span>
                     </a>
                   ))}
                 </div>

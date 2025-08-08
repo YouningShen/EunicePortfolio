@@ -54,7 +54,7 @@ const About: React.FC = () => {
               
               <div className="about__cta">
                 <a 
-                  href="/eunice-shen-resume.pdf" 
+                  href={`${process.env.PUBLIC_URL}/eunice-shen-resume.pdf`}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const About: React.FC = () => {
                   View Resume
                 </a>
                 <a 
-                  href="/eunice-shen-resume.pdf" 
+                  href={`${process.env.PUBLIC_URL}/eunice-shen-resume.pdf`}
                   className="btn btn-secondary"
                   download
                 >
