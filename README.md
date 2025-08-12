@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Portfolio Website
 
-## Getting Started
+A beautiful, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Features smooth animations, dark mode support, and modern design patterns.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern Design**: Clean, professional layout with smooth animations
+- **Responsive**: Fully responsive design that works on all devices
+- **Dark Mode**: Built-in dark/light mode toggle with system preference detection
+- **Performance**: Optimized for speed and SEO with Next.js 14
+- **Accessibility**: WCAG compliant with proper semantic HTML
+- **Type Safe**: Built with TypeScript for better development experience
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Theme**: next-themes for dark mode support
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Sections
 
-## Learn More
+- **Hero**: Eye-catching introduction with social links
+- **About**: Personal information and skills overview
+- **Skills**: Technical skills with progress indicators
+- **Projects**: Portfolio showcase with project details
+- **Contact**: Contact form and information
+- **Footer**: Additional links and information
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd website
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Customization
+
+To customize this portfolio for your own use:
+
+1. **Update personal information** in the component files:
+   - `src/components/Hero.tsx` - Name, title, and description
+   - `src/components/About.tsx` - About section content
+   - `src/components/Skills.tsx` - Your skills and technologies
+   - `src/components/Projects.tsx` - Your projects and work
+   - `src/components/Contact.tsx` - Contact information
+
+2. **Update metadata** in `src/app/layout.tsx`
+
+3. **Replace placeholder content** with your actual information
+
+4. **Add your project images** to the `public` folder
+
+## 📜 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🎨 Color Scheme
+
+The portfolio uses a CSS custom property-based theming system that supports both light and dark modes. Colors are defined in `src/app/globals.css` and can be easily customized.
+
+## 📱 Responsive Design
+
+The website is fully responsive and tested on:
+- Desktop (1024px and up)
+- Tablet (768px - 1023px)
+- Mobile (320px - 767px)
+
+## 🚀 Deployment
+
+The easiest way to deploy your portfolio is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Deploy with zero configuration
+
+Alternatively, you can deploy to any platform that supports Next.js:
+- Netlify
+- AWS
+- Digital Ocean
+- Railway
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
