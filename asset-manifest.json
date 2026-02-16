@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6f77a0a.css",
-    "main.js": "/static/js/main.be924e33.js",
-    "static/js/453.2b102ba3.chunk.js": "/static/js/453.2b102ba3.chunk.js",
-    "index.html": "/index.html",
-    "main.d6f77a0a.css.map": "/static/css/main.d6f77a0a.css.map",
-    "main.be924e33.js.map": "/static/js/main.be924e33.js.map",
-    "453.2b102ba3.chunk.js.map": "/static/js/453.2b102ba3.chunk.js.map"
+    "main.css": "/EunicePortfolio/static/css/main.d6f77a0a.css",
+    "main.js": "/EunicePortfolio/static/js/main.94affd79.js",
+    "static/js/453.2b102ba3.chunk.js": "/EunicePortfolio/static/js/453.2b102ba3.chunk.js",
+    "index.html": "/EunicePortfolio/index.html",
+    "main.d6f77a0a.css.map": "/EunicePortfolio/static/css/main.d6f77a0a.css.map",
+    "main.94affd79.js.map": "/EunicePortfolio/static/js/main.94affd79.js.map",
+    "453.2b102ba3.chunk.js.map": "/EunicePortfolio/static/js/453.2b102ba3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6f77a0a.css",
-    "static/js/main.be924e33.js"
+    "static/js/main.94affd79.js"
   ]
 }
