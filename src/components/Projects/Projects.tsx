@@ -55,114 +55,111 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Virtue Group Website',
-      description: 'A professional business website showcasing services and company information with modern design and responsive layout.',
-      technologies: ['React', 'CSS3', 'JavaScript', 'Responsive Design'],
-      image: '🌐',
-      // liveUrl: 'https://example.com',
-      // githubUrl: 'https://github.com/yourusername/virtue-group',
+      title: 'CodeSnap – Mobile Coding Education Platform',
+      description: 'A mobile learning platform with real-time code tracking and secure sandboxed execution for Python practice at scale.',
+      technologies: ['React Native', 'Firebase', 'Docker', 'Python', 'VS Code Extension'],
+      image: '📱',
       featured: true,
       screenshots: [
-        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-1.png`,
-        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-2.png`,
-        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-3.png`,
-        `${process.env.PUBLIC_URL}/proj_screenshots/VirtueGroupWebsite-4.png`
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-1.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-2.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-3.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-4.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-5.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-6.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-7.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CodeSnap/CodeSnap-8.png`
       ],
-      detailedDescription: 'A comprehensive business website for Virtue Group, designed with a modern and professional aesthetic. The website features a clean layout, responsive design, and intuitive navigation to showcase the company\'s services and values effectively.',
+      detailedDescription: 'CodeSnap is a mobile-first coding education platform that pairs real-time progress tracking with a secure, containerized execution pipeline for Python submissions. It supports hundreds of submissions and delivers fast, reliable feedback for learners.',
       challenges: [
-        'Creating a professional design that reflects company branding',
-        'Implementing responsive design for all device sizes',
-        'Optimizing performance and loading times',
-        'Ensuring cross-browser compatibility'
+        'Designing a secure, containerized execution environment for untrusted code',
+        'Maintaining low-latency feedback for mobile users',
+        'Scaling real-time tracking for growing user activity',
+        'Reducing API response time through batching and caching'
       ],
       achievements: [
-        'Achieved 95+ Google Lighthouse performance score',
-        'Implemented fully responsive design across all breakpoints',
-        'Created intuitive user experience with clear navigation',
-        'Built modular component architecture for easy maintenance'
+        'Supported 100+ learners with real-time code tracking',
+        'Processed 500+ submissions with 99.8% uptime and zero security incidents',
+        'Reduced average response latency from 3.2s to 1.1s using batching and caching'
       ]
     },
-    // https://youningshen.github.io/cse160_asgn5/three_js/asgn5.html
-    // https://youningshen.github.io/cse160_asg1/ColoredPoints.html
-    // https://youningshen.github.io/cse160_asg2/BlockyAnimal/BlockyAnimal.html
-
     {
       id: 2,
-      title: 'AutoML Data Analytics Tool',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'Firebase', 'TypeScript', 'Material-UI'],
-      image: '📊',
-      // liveUrl: 'https://example.com',
-      // githubUrl: 'https://github.com/yourusername/taskapp',
+      title: 'SlugSmart – UCSC Financial Purchase Prediction System',
+      description: 'A full-stack analytics and ML system that uncovers spending patterns and recommends inventory decisions.',
+      technologies: ['React', 'TypeScript', 'Python', 'Machine Learning', 'Vercel'],
+      image: '📈',
       featured: true,
       screenshots: [
-        `${process.env.PUBLIC_URL}/api/placeholder/800/600`,
-        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
+        `${process.env.PUBLIC_URL}/proj_screenshots/SlugSmart/SlugSmart-1.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/SlugSmart/SlugSmart-2.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/SlugSmart/SlugSmart-3.png`
       ],
-      detailedDescription: 'A modern task management application built with React and TypeScript, featuring real-time collaboration powered by Firebase. Users can create projects, assign tasks, set deadlines, and track progress with an intuitive drag-and-drop interface.',
+      detailedDescription: 'SlugSmart analyzes multi-year purchasing data to identify spending patterns and vendor trends, then provides ML-driven recommendations via a chatbot interface. The system helps reduce external spending by predicting which items to stock internally.',
       challenges: [
-        'Implementing real-time synchronization across multiple users',
-        'Building intuitive drag-and-drop functionality',
-        'Managing complex state with TypeScript for type safety',
-        'Designing collaborative features with conflict resolution'
+        'Building a reliable data pipeline for multi-year datasets',
+        'Turning complex spending data into clear, actionable insights',
+        'Designing feedback-driven ML recommendations that improve over time',
+        'Creating a responsive, user-friendly web experience'
       ],
       achievements: [
-        'Achieved sub-100ms real-time sync with Firebase',
-        'Built custom drag-and-drop system with smooth animations',
-        'Implemented offline-first architecture with sync capabilities',
-        'Created comprehensive notification system for team updates'
+        'Built an end-to-end pipeline for spending pattern and vendor trend analysis',
+        'Delivered ML predictions and a chatbot for contextual stocking recommendations',
+        'Enabled feedback-driven learning using historical and seasonal signals'
       ]
     },
     {
       id: 3,
-      title: 'Task Management App',
-      description: 'A responsive weather dashboard that displays current conditions and forecasts using external APIs with beautiful data visualizations.',
-      technologies: ['JavaScript', 'Chart.js', 'REST API', 'CSS3'],
-      image: '🌤️',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/yourusername/weather',
-      featured: false,
+      title: 'AutoML Analytics Dashboard',
+      description: 'A FastAPI-based dashboard for visualizing AutoML experiments and accelerating model review workflows.',
+      technologies: ['FastAPI', 'PyCaret', 'Python', 'SQL', 'Caching'],
+      image: '🧠',
+      featured: true,
       screenshots: [
-        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-1.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-2.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-3.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-4.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-5.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/CCP/CCP-6.png`
       ],
-      detailedDescription: 'An interactive weather dashboard that provides comprehensive weather information with beautiful visualizations. Built with vanilla JavaScript and Chart.js for optimal performance.',
+      detailedDescription: 'Built during a machine learning engineering internship, this dashboard helps teams interpret AutoML experiments quickly through rich visualizations and efficient API-backed data access.',
       challenges: [
-        'Integrating multiple weather APIs for comprehensive data',
-        'Creating responsive charts that work on all devices',
-        'Handling API rate limits and error states gracefully',
-        'Designing intuitive data visualization layouts'
+        'Reducing experiment review time across multiple domain teams',
+        'Optimizing API response time for concurrent usage',
+        'Ensuring reproducible experiment workflows',
+        'Scaling data access with caching and query optimization'
       ],
       achievements: [
-        'Integrated 3 different weather APIs for maximum reliability',
-        'Created custom responsive chart components',
-        'Achieved 98% API uptime with fallback systems',
-        'Built progressive web app with offline capabilities'
+        'Reduced experiment review time by 40% for 3 domain teams',
+        'Enabled 15+ parallel AutoML experiments with reproducible pipelines',
+        'Achieved 70% faster load times for 50+ concurrent users'
       ]
     },
     {
       id: 4,
-      title: 'Social Media Analytics',
-      description: 'A data analytics tool for social media metrics with interactive charts and real-time data processing capabilities.',
-      technologies: ['Python', 'Django', 'PostgreSQL', 'D3.js'],
-      image: '📊',
-      githubUrl: 'https://github.com/yourusername/analytics',
+      title: 'Virtue Group Accounting Firm Website',
+      description: 'A responsive, production website built end-to-end from wireframes to deployment for a professional services firm.',
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Responsive Design'],
+      image: '🌐',
       featured: false,
       screenshots: [
-        `${process.env.PUBLIC_URL}/api/placeholder/800/600`,
-        `${process.env.PUBLIC_URL}/api/placeholder/800/600`
+        `${process.env.PUBLIC_URL}/proj_screenshots/VCW/VirtueGroupWebsite-1.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VCW/VirtueGroupWebsite-2.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VCW/VirtueGroupWebsite-3.png`,
+        `${process.env.PUBLIC_URL}/proj_screenshots/VCW/VirtueGroupWebsite-4.png`
       ],
-      detailedDescription: 'A comprehensive social media analytics platform that processes large datasets to provide insights into social media performance. Built with Python Django backend and D3.js for interactive visualizations.',
+      detailedDescription: 'A full-stack production website for Virtue Group Accounting Firm, from requirements and wireframes through UI/UX implementation and deployment. The site includes responsive landing pages, service pages, and contact workflows.',
       challenges: [
-        'Processing large datasets efficiently with PostgreSQL',
-        'Creating real-time data visualizations with D3.js',
-        'Implementing secure API authentication for social platforms',
-        'Designing scalable data processing pipelines'
+        'Aligning UI/UX design with stakeholder requirements and brand clarity',
+        'Building responsive layouts for service and contact workflows',
+        'Implementing an end-to-end delivery pipeline from design to deployment',
+        'Iterating on design based on client feedback'
       ],
       achievements: [
-        'Built system capable of processing 1M+ data points daily',
-        'Created 15+ interactive chart types with D3.js',
-        'Achieved 99.5% data accuracy across all social platforms',
-        'Implemented automated reporting system with email notifications'
+        'Delivered a complete web presence with responsive pages and contact flows',
+        'Improved brand clarity and increased client inquiries by 25% post-launch',
+        'Led requirements, design, implementation, and deployment end-to-end'
       ]
     }
   ];
@@ -383,7 +380,7 @@ const Projects: React.FC = () => {
           <div className="projects__cta">
             <p>Want to see more of my work?</p>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/YouningShen"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary"

@@ -14,31 +14,37 @@ const Skills: React.FC = () => {
 
   const skills: Skill[] = [
     // Frontend
-    { name: 'React', level: 80, icon: '⚛️', category: 'frontend' },
+    { name: 'React Native', level: 85, icon: '📱', category: 'frontend' },
+    { name: 'Flutter', level: 70, icon: '🦋', category: 'frontend' },
     { name: 'JavaScript', level: 85, icon: '🟨', category: 'frontend' },
-    { name: 'CSS3', level: 80, icon: '🟦', category: 'frontend' },
-    { name: 'HTML5', level: 70, icon: '🟥', category: 'frontend' },
-    
+    { name: 'HTML/CSS', level: 80, icon: '🎨', category: 'frontend' },
+    { name: 'Dart', level: 70, icon: '🎯', category: 'frontend' },
+
     // Backend
-    { name: 'Node.js', level: 60, icon: '🟢', category: 'backend' },
-    { name: 'Python', level: 85, icon: '🐍', category: 'backend' },
+    { name: 'Python', level: 88, icon: '🐍', category: 'backend' },
     { name: 'Java', level: 80, icon: '☕', category: 'backend' },
-    { name: 'C', level: 70, icon: '🔵', category: 'backend' },
-    { name: 'FastAPI', level: 75, icon: '⚡️', category: 'backend' },
-    
+    { name: 'C/C++', level: 75, icon: '🔵', category: 'backend' },
+    { name: 'FastAPI', level: 80, icon: '⚡️', category: 'backend' },
+    { name: 'Node.js', level: 70, icon: '🟢', category: 'backend' },
+    { name: 'PyCaret', level: 72, icon: '🧪', category: 'backend' },
+
     // Others
-    { name: 'SQL', level: 60, icon: '🛢️', category: 'others' },
-    { name: 'RESTful APIs', level: 65, icon: '🔧', category: 'others' },
+    { name: 'SQL', level: 72, icon: '🛢️', category: 'others' },
+    { name: 'Firebase', level: 78, icon: '🔥', category: 'others' },
+    { name: 'Machine Learning', level: 80, icon: '🤖', category: 'others' },
+    { name: 'Data Visualization', level: 76, icon: '📊', category: 'others' },
+    { name: 'API Design', level: 78, icon: '🔧', category: 'others' },
+    { name: 'Cloud Architecture', level: 72, icon: '☁️', category: 'others' },
     { name: 'English', level: 95, icon: '🆎', category: 'others' },
     { name: 'Mandarin', level: 95, icon: '🈶', category: 'others' },
 
     // Tools
+    { name: 'Docker', level: 78, icon: '🐳', category: 'tools' },
     { name: 'Git', level: 85, icon: '📝', category: 'tools' },
-    { name: 'VS Code', level: 95, icon: '💙', category: 'tools' },
+    { name: 'AWS', level: 70, icon: '☁️', category: 'tools' },
+    { name: 'Google Cloud', level: 70, icon: '🌐', category: 'tools' },
     { name: 'Figma', level: 85, icon: '🎨', category: 'tools' },
-    { name: 'Canva', level: 95, icon: '💜', category: 'tools' },
-    { name: 'Google Workspace', level: 85, icon: '🌐', category: 'tools' },
-    { name: 'Copilot', level: 90, icon: '🤖', category: 'tools' }
+    { name: 'Adobe Creative Suite', level: 75, icon: '🖌️', category: 'tools' }
   ];
 
   const categories = [
@@ -125,25 +131,25 @@ const Skills: React.FC = () => {
           
           <div className="skills__summary">
             <div className="summary-card">
-              <h3>Currently Learning</h3>
+              <h3>Specializations</h3>
               <div className="learning-items">
-                <span className="learning-item">🔥 Next.js</span>
-                <span className="learning-item">🚀 GraphQL</span>
                 <span className="learning-item">🤖 Machine Learning</span>
-                <span className="learning-item">☁️ AWS</span>
+                <span className="learning-item">🧩 Backend Development</span>
+                <span className="learning-item">📊 Data Visualization</span>
+                <span className="learning-item">🔧 API Design</span>
+                <span className="learning-item">☁️ Cloud Architecture</span>
               </div>
             </div>
             
             <div className="summary-card">
-              <h3>Strengths</h3>
+              <h3>Technical Strengths</h3>
               <div className="strength-items">
-                <span className="strength-item">💡 Problem Solving</span>
-                <span className="strength-item">🙋 Communication</span>
-                <span className="strength-item">🤝 Team Collaboration</span>
-                <span className="strength-item">📚 Willingness to Learn</span>
-                <span className="strength-item">🎯 Attention to Detail</span>
-                <span className="strength-item">🕐 Time Management</span>
-                <span className="strength-item">💭 Growth Mindset</span>
+                <span className="strength-item">⚡ Performance Optimization</span>
+                <span className="strength-item">🧠 Experiment Reproducibility</span>
+                <span className="strength-item">🔒 Secure Code Execution</span>
+                <span className="strength-item">🧪 ML Pipelines</span>
+                <span className="strength-item">📈 Data-Driven Insights</span>
+                <span className="strength-item">🤝 Cross-Functional Collaboration</span>
               </div>
             </div>
           </div>

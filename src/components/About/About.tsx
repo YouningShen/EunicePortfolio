@@ -30,31 +30,30 @@ const About: React.FC = () => {
             <div className="about__text">
               <div className="about__intro">
                 <p>
-                  Hi, I’m Eunice — a Computer Science student at UCSC passionate about 
-                  building clean, scalable software that solves real-world problems.
+                  Hi, I’m Eunice — a Computer Science student at UC Santa Cruz (B.S., expected 2026) who enjoys 
+                  building reliable software that turns complex data into clear, useful products.
                 </p>
                 
                 <p>
-                  I’ve built full-stack tools using Python, FastAPI, React, and Flutter, 
-                  from internal dashboards for data teams to mobile apps promoting healthy 
-                  eating habits. I love turning complex ideas into intuitive, usable products.
+                  Most recently, I worked as a Machine Learning Engineer Intern at Chang Chun Group, where I 
+                  built a FastAPI analytics dashboard, automated PyCaret training pipelines, and optimized 
+                  backend performance for concurrent users.
                 </p>
 
                 <p>
-                    With hands-on experience in machine learning pipelines, API development, 
-                    and agile collaboration, I’m always looking to learn and grow as a software engineer.
+                  I also led a full-stack website build for Virtue Group Accounting Firm, delivering responsive 
+                  pages and contact workflows from wireframes to deployment.
                 </p>
                 
                 <p>
-                  I'm actively seeking internship opportunities where I can apply my 
-                  skills, learn from experienced professionals, and contribute to 
-                  innovative projects that push the boundaries of what's possible.
+                  I’m excited to keep growing in machine learning, backend development, and data visualization 
+                  while collaborating on impactful, user-centered software.
                 </p>
               </div>
               
               <div className="about__cta">
                 <a 
-                  href={`${process.env.PUBLIC_URL}/eunice-shen-resume.pdf`}
+                  href={`${process.env.PUBLIC_URL}/Eunice-Shen-Resume.pdf`}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,7 +61,7 @@ const About: React.FC = () => {
                   View Resume
                 </a>
                 <a 
-                  href={`${process.env.PUBLIC_URL}/eunice-shen-resume.pdf`}
+                  href={`${process.env.PUBLIC_URL}/Eunice-Shen-Resume.pdf`}
                   className="btn btn-secondary"
                   download
                 >
@@ -90,15 +89,15 @@ const About: React.FC = () => {
           
           <div className="about__stats">
             <div className="stat">
-              <div className="stat-number">5+</div>
+              <div className="stat-number">3+</div>
               <div className="stat-label">Years Coding</div>
             </div>
             <div className="stat">
-              <div className="stat-number">5+</div>
+              <div className="stat-number">8</div>
               <div className="stat-label">Projects Built</div>
             </div>
             <div className="stat">
-              <div className="stat-number">5+</div>
+              <div className="stat-number">10</div>
               <div className="stat-label">Technologies</div>
             </div>
             <div className="stat">
